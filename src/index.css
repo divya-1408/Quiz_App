@@ -1,13 +1,38 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.home-container, .quiz-container, .result-container, .leaderboard-container {
+  margin: 20px auto;
+  padding: 20px;
+  width: 50%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.start-button, .submit-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.start-button:hover, .submit-button:hover {
+  background-color: #218838;
+}
+
+.question-block {
+  margin: 10px 0;
+  padding: 10px;
+  background: #e9ecef;
+  border-radius: 5px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
 }
