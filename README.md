@@ -20,13 +20,10 @@ Progress bar for tracking completion.
 
 Responsive and animated UI using Framer Motion.
 
-State management with Zustand.
 
 🛠️ Tech Stack
 
-Frontend: React.js, Tailwind CSS, Framer Motion
-
-State Management: Zustand
+Frontend: React.js
 
 API Handling: Axios
 
