@@ -9,7 +9,16 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <script src="src/App.js"></script> 
+    <script>
+
+        import MyComponent from './App.jsx'; // Import your component
+
+
+
+        ReactDOM.render(<MyComponent />, document.getElementById('root'));
+
+    </script>
+
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
